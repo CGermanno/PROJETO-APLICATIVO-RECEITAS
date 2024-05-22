@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBQOjk-r3KJgTAQ2eA7Og3XF8-x5SPC_FU',
-    appId: '1:308182234528:web:661cb59c95a00e6a1ee0c5',
-    messagingSenderId: '308182234528',
-    projectId: 'app-fatec-lista-tarefas-38602',
-    authDomain: 'app-fatec-lista-tarefas-38602.firebaseapp.com',
-    storageBucket: 'app-fatec-lista-tarefas-38602.appspot.com',
-    measurementId: 'G-D1HVWD1GYW',
+    apiKey: 'AIzaSyC0osqQr9G996UPMTUukIXpNXyyVLY69So',
+    appId: '1:1002302150399:web:4cf78f38be4eb55b191eca',
+    messagingSenderId: '1002302150399',
+    projectId: 'prototipotcc-e0f33',
+    authDomain: 'prototipotcc-e0f33.firebaseapp.com',
+    storageBucket: 'prototipotcc-e0f33.appspot.com',
+    measurementId: 'G-QEK5JL65E4',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCdu3_qdKraH_8Ci4SN0cUrYXj64hh1xDQ',
-    appId: '1:308182234528:android:b0df8953f2db6c741ee0c5',
-    messagingSenderId: '308182234528',
-    projectId: 'app-fatec-lista-tarefas-38602',
-    storageBucket: 'app-fatec-lista-tarefas-38602.appspot.com',
+    apiKey: 'AIzaSyCpnC36Mc4Afw1bsShP8eLsAV8aZpxH3xs',
+    appId: '1:1002302150399:android:d4b88fb22109bd4d191eca',
+    messagingSenderId: '1002302150399',
+    projectId: 'prototipotcc-e0f33',
+    storageBucket: 'prototipotcc-e0f33.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDIIuBBFefGAdmYADM_ikRqCkQoF-X0ckg',
-    appId: '1:308182234528:ios:8ab7930b78164e1c1ee0c5',
-    messagingSenderId: '308182234528',
-    projectId: 'app-fatec-lista-tarefas-38602',
-    storageBucket: 'app-fatec-lista-tarefas-38602.appspot.com',
+    apiKey: 'AIzaSyCHuo9RTtOTFBC07o14yJYAcJGp7D90T3A',
+    appId: '1:1002302150399:ios:651aae94eec261ee191eca',
+    messagingSenderId: '1002302150399',
+    projectId: 'prototipotcc-e0f33',
+    storageBucket: 'prototipotcc-e0f33.appspot.com',
     iosBundleId: 'com.example.flutterApplication1',
   );
 
