@@ -19,7 +19,7 @@ Future<void> main() async {
 
   runApp(
     DevicePreview(
-      enabled: false,
+      enabled: true,
       builder: (context) => MainApp(),
     ),
   );
@@ -32,7 +32,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tarefas',
+      title: 'LOGIN',
       initialRoute: 'login',
       routes: {
         'login': (context) => LoginView(),

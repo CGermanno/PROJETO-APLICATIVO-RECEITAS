@@ -19,8 +19,8 @@ class _LoginViewState extends State<LoginView> {
   @override
   void initState() {
     super.initState();
-    txtEmail.text = 'joao@email.com.br';
-    txtSenha.text = 'senha123';
+    txtEmail.text = '';
+    txtSenha.text = '';
   }
 
   @override
