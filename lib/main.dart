@@ -12,6 +12,7 @@ import 'view/principal_view.dart';
 Future<void> main() async {
   //
   // Firebase
+  //teste.teste
   //
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
