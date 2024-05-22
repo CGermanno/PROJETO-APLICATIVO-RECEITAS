@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "app-fatec-lista-tarefas-38602",
+          "appId": "1:308182234528:android:b0df8953f2db6c741ee0c5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "app-fatec-lista-tarefas-38602",
+          "configurations": {
+            "android": "1:308182234528:android:b0df8953f2db6c741ee0c5",
+            "ios": "1:308182234528:ios:8ab7930b78164e1c1ee0c5",
+            "web": "1:308182234528:web:661cb59c95a00e6a1ee0c5"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
